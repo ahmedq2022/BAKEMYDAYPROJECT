@@ -1,0 +1,55 @@
+.owl-nav {
+  margin: 0 !important;
+}
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.owl-prev {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  margin-left: -20px !important;
+  display: block !important;
+  background-color: #fff !important;
+}
+.owl-prev:hover {
+  background-color: #d5d5d5 !important;
+  color: #171717 !important;
+  cursor: pointer !important;
+}
+.owl-next {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 40%;
+  right: 1.5%;
+  display: block !important;
+  border: 0px solid black;
+  background-color: #fff !important;
+}
+.owl-next:hover {
+  background-color: #d5d5d5 !important;
+  color: #171717 !important;
+  cursor: pointer !important;
+}
+.owl-dots {
+  /* display: none; */
+  margin: 2rem 1rem;
+}
+.owl-theme .owl-dots .owl-dot span {
+  margin: 3px 3px !important;
+}
+.owl-stage {
+  padding: 0 0 1rem;
+}
